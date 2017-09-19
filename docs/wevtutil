@@ -1,0 +1,2291 @@
+name: Microsoft-Windows-PowerShell
+guid: a0c1853b-5c40-4b15-8766-3cf1c58f985a
+helpLink: http://go.microsoft.com/fwlink/events.asp?CoName=Microsoft%20Corporation&ProdName=Microsoft%c2%ae%20Windows%c2%ae%20Operating%20System&ProdVer=10.0.10586.117&FileName=PSEvents.dll&FileVer=10.0.10586.117
+resourceFileName: C:\Windows\system32\WindowsPowerShell\v1.0\PSEvents.dll
+messageFileName: C:\Windows\system32\WindowsPowerShell\v1.0\PSEvents.dll
+message: 
+channels:
+  channel:
+    name: Microsoft-Windows-PowerShell/Operational
+    id: 16
+    flags: 0
+    message: Microsoft-Windows-PowerShell/Operational
+  channel:
+    name: Microsoft-Windows-PowerShell/Analytic
+    id: 17
+    flags: 0
+    message: Microsoft-Windows-PowerShell/Analytic
+  channel:
+    name: Microsoft-Windows-PowerShell/Debug
+    id: 18
+    flags: 0
+    message: Microsoft-Windows-PowerShell/Debug
+  channel:
+    name: Microsoft-Windows-PowerShell/Admin
+    id: 19
+    flags: 0
+    message: Microsoft-Windows-PowerShell/Admin
+levels:
+  level:
+    name: win:Error
+    value: 2
+    message: Error
+  level:
+    name: win:Warning
+    value: 3
+    message: Warning
+  level:
+    name: win:Informational
+    value: 4
+    message: Information
+  level:
+    name: win:Verbose
+    value: 5
+    message: Verbose
+  level:
+    name: Debug
+    value: 20
+    message: Debug level defined by PowerShell (which is above Informational defined by system)
+opcodes:
+  opcode:
+    name: win:Start
+    value: 65536
+      task: 0
+      opcode: 1
+    message: Start
+  opcode:
+    name: win:Stop
+    value: 131072
+      task: 0
+      opcode: 2
+    message: Stop
+  opcode:
+    name: Open
+    value: 655360
+      task: 0
+      opcode: 10
+    message: Open (async)
+  opcode:
+    name: Close
+    value: 720896
+      task: 0
+      opcode: 11
+    message: Close (Async)
+  opcode:
+    name: Connect
+    value: 786432
+      task: 0
+      opcode: 12
+    message: connect
+  opcode:
+    name: Disconnect
+    value: 851968
+      task: 0
+      opcode: 13
+    message: Disconnect
+  opcode:
+    name: Negotiate
+    value: 917504
+      task: 0
+      opcode: 14
+    message: Negotiate
+  opcode:
+    name: Create
+    value: 983040
+      task: 0
+      opcode: 15
+    message: On create calls
+  opcode:
+    name: Constructor
+    value: 1048576
+      task: 0
+      opcode: 16
+    message: to be used when an object is constructed
+  opcode:
+    name: Dispose
+    value: 1114112
+      task: 0
+      opcode: 17
+    message: To be used when an object is disposed
+  opcode:
+    name: EventHandler
+    value: 1179648
+      task: 0
+      opcode: 18
+    message: To be used when an event handler is raised
+  opcode:
+    name: Exception
+    value: 1245184
+      task: 0
+      opcode: 19
+    message: To be used when an exception is raised
+  opcode:
+    name: Method
+    value: 1310720
+      task: 0
+      opcode: 20
+    message: To be used when operation is just executing a method
+  opcode:
+    name: Send
+    value: 1376256
+      task: 0
+      opcode: 21
+    message: Send (Async)
+  opcode:
+    name: Receive
+    value: 1441792
+      task: 0
+      opcode: 22
+    message: Receive (Async)
+  opcode:
+    name: Rehydration
+    value: 1507328
+      task: 0
+      opcode: 23
+    message: Rehydration
+  opcode:
+    name: SerializationSettings
+    value: 1572864
+      task: 0
+      opcode: 24
+    message: Serialization settings
+  opcode:
+    name: ShuttingDown
+    value: 1638400
+      task: 0
+      opcode: 25
+    message: Shutting down
+tasks:
+  task:
+    name: CreateRunspace
+    value: 1
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Connect
+  task:
+    name: ExecuteCommand
+    value: 2
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Execute a Remote Command
+  task:
+    name: Serialization
+    value: 3
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Serialize or deserialize remoting payload
+  task:
+    name: Powershell-Console-Startup
+    value: 4
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: PowerShell Console Startup
+  task:
+    name: WorkflowHosting
+    value: 5
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Workflow Hosting
+  task:
+    name: WorkflowExecution
+    value: 6
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Workflow Execution
+  task:
+    name: WorkflowPersistence
+    value: 7
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Workflow Persistence
+  task:
+    name: WorkflowValidation
+    value: 8
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Workflow Validation
+  task:
+    name: Configuration
+    value: 9
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Configuration
+  task:
+    name: EngineStart
+    value: 100
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Starting Engine
+  task:
+    name: EngineStop
+    value: 101
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Stopping Engine
+  task:
+    name: CommandStart
+    value: 102
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Starting Command
+  task:
+    name: CommandStop
+    value: 103
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Stopping Command
+  task:
+    name: ProviderStart
+    value: 104
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Starting Provider
+  task:
+    name: ProviderStop
+    value: 105
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Stopping Provider
+  task:
+    name: ExecutePipeline
+    value: 106
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: Executing Pipeline
+  task:
+    name: ScheduledJob
+    value: 110
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: PowerShell Scheduled Jobs
+  task:
+    name: NamedPipe
+    value: 111
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: PowerShell Named Pipe IPC
+  task:
+    name: ISEOperation
+    value: 120
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: PowerShell ISE Operation
+  task:
+    name: win:None
+    value: 0
+    eventGUID: 00000000-0000-0000-0000-000000000000
+    message: None
+keywords:
+  keyword:
+    name: Runspace
+    mask: 1
+    message: PowerShell Runspace
+  keyword:
+    name: Pipeline
+    mask: 2
+    message: Pipeline of Commands
+  keyword:
+    name: Protocol
+    mask: 4
+    message: PowerShell remoting protocol
+  keyword:
+    name: Transport
+    mask: 8
+    message: PowerShell remoting transport
+  keyword:
+    name: Host
+    mask: 10
+    message: PowerShell remoting host proxy calls
+  keyword:
+    name: Cmdlets
+    mask: 20
+    message: All remoting cmdlets
+  keyword:
+    name: Serializer
+    mask: 40
+    message: The serialization layer
+  keyword:
+    name: Session
+    mask: 80
+    message: All session layer
+  keyword:
+    name: Plugin
+    mask: 100
+    message: The managed PowerShell plugin worker
+  keyword:
+    name: PSWorkflow
+    mask: 200
+    message: PSWorkflow Hosting And Execution Layer
+  keyword:
+    name: win:ResponseTime
+    mask: 1000000000000
+    message: Response Time
+events:
+  event:
+    value: 4097
+    version: 1
+    opcode: 20
+    channel: 0
+    level: 5
+    task: 1
+    keywords: 0x20
+    message: Computer Name $null or . resolve to LocalHost
+  event:
+    value: 4098
+    version: 1
+    opcode: 20
+    channel: 0
+    level: 5
+    task: 1
+    keywords: 0x20
+    message: Resolving to default scheme http
+  event:
+    value: 4099
+    version: 1
+    opcode: 20
+    channel: 0
+    level: 5
+    task: 1
+    keywords: 0x20
+    message: Remote shell name resolved to default Microsoft.PowerShell
+  event:
+    value: 4100
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 4
+    task: 0
+    keywords: 0x8000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 4101
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 4
+    task: 0
+    keywords: 0x8000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 4102
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 4
+    task: 0
+    keywords: 0x8000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 4103
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 4
+    task: 0
+    keywords: 0x8000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 4104
+    version: 1
+    opcode: 15
+    channel: 16
+    level: 5
+    task: 102
+    keywords: 0x8000000000000001
+    message: Creating Scriptblock text (%1 of %2):
+%3
+
+ScriptBlock ID: %4
+Path: %5
+  event:
+    value: 4105
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 102
+    keywords: 0x8000000000000001
+    message: Started invocation of ScriptBlock ID: %1
+Runspace ID: %2
+  event:
+    value: 4106
+    version: 1
+    opcode: 11
+    channel: 16
+    level: 5
+    task: 103
+    keywords: 0x8000000000000001
+    message: Completed invocation of ScriptBlock ID: %1
+Runspace ID: %2
+  event:
+    value: 7937
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 7938
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 7939
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 7940
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000020
+    message: %3
+
+Context:
+%1
+
+User Data:
+%2
+
+  event:
+    value: 7941
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 0
+    keywords: 0x4000000000000000
+    message: Correlating activity id's. 
+ 	 CurrentActivityId: %1 
+ 	 ParentActivityId: %2
+  event:
+    value: 7942
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000020
+    message: Class Name = %1
+Method Name = %2
+Workflow GUID = %3
+Message = %4
+%5
+Activity Name = %6
+Activity GUID = %7
+Parameters = %8
+  event:
+    value: 8193
+    version: 1
+    opcode: 16
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Creating Runspace object 
+ 	 Instance Id: %1
+  event:
+    value: 8194
+    version: 1
+    opcode: 16
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Creating RunspacePool object 
+ 	 InstanceId %1 
+ 	 MinRunspaces %2 
+ 	 MaxRunspaces %3
+  event:
+    value: 8195
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Opening RunspacePool
+  event:
+    value: 8196
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Modifying activity Id and correlating
+  event:
+    value: 8197
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Runspace state changed to %1
+  event:
+    value: 8198
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Attempting session creation retry %1 for error code %2 on session Id %3
+  event:
+    value: 12033
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 1
+    keywords: 0x4000000000000001
+    message: Port resolved to %1
+  event:
+    value: 12034
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 1
+    keywords: 0x4000000000000001
+    message: AppName resolved to %1
+  event:
+    value: 12035
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 1
+    keywords: 0x4000000000000001
+    message: ComputerName resolved to %1
+  event:
+    value: 12036
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 1
+    keywords: 0x4000000000000001
+    message: Scheme is %1
+  event:
+    value: 12037
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 1
+    keywords: 0x4000000000000001
+    message: Test analytic message
+  event:
+    value: 12038
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 4
+    task: 1
+    keywords: 0x4000000000000001
+    message: Connection Paramters are 
+ Connection URI: %1 
+ Resource URI: %2 
+ User: %3 
+ OpenTimeout: %4 
+ IdleTimeout: %5 
+ CancelTimeout: %6 
+ AuthenticationMechanism: %7 
+ Thumb Print: %8 
+ MaxUriRedirectionCount: %9 
+ MaxReceivedDataSizePerCommand: %10 
+ MaxReceivedObjectSize: %11
+  event:
+    value: 12039
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 1
+    keywords: 0x8000000000000001
+    message: Modifying activity Id and correlating
+  event:
+    value: 24577
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE has started to run script file %1.
+  event:
+    value: 24578
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE has started to run a user-selected script from file %1.
+  event:
+    value: 24579
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is stopping the current command.
+  event:
+    value: 24580
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is resuming the debugger.
+  event:
+    value: 24581
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is stopping the debugger.
+  event:
+    value: 24582
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is stepping into debugging.
+  event:
+    value: 24583
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is stepping over debugging.
+  event:
+    value: 24584
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is stepping out of debugging.
+  event:
+    value: 24592
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is enabling all breakpoints.
+  event:
+    value: 24593
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 0
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is disabling all breakpoints.
+  event:
+    value: 24594
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is removing all breakpoints.
+  event:
+    value: 24595
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is setting the breakpoint at line #: %1 of file %2.
+  event:
+    value: 24596
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is removing the breakpoint on line #: %1 of file %2.
+  event:
+    value: 24597
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is enabling the breakpoint on line #: %1 of file %2.
+  event:
+    value: 24598
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE is disabling the breakpoint on line #: %1 of file %2.
+  event:
+    value: 24599
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 4
+    task: 120
+    keywords: 0x8000000000000000
+    message: Windows PowerShell ISE has hit a breakpoint on line #: %1 of file %2.
+  event:
+    value: 28673
+    version: 1
+    opcode: 23
+    channel: 17
+    level: 5
+    task: 3
+    keywords: 0x4000000000000040
+    message: Successfully rehydrated an object. 
+ 	 Deserialized type name: %1 
+ 	 Rehydrated by casting to type: %2 
+ 	 Rehydrated object is of type: %3
+  event:
+    value: 28674
+    version: 1
+    opcode: 23
+    channel: 17
+    level: 2
+    task: 3
+    keywords: 0x4000000000000040
+    message: Failed to rehydrated an object. 
+ 	 Deserialized type name: %1 
+ 	 Rehydrated by casting to type: %2 
+ 	 Type cast exception: %3 
+ 	 Type cast inner exception: %4
+  event:
+    value: 28675
+    version: 1
+    opcode: 24
+    channel: 17
+    level: 5
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization depth has been overriden. 
+ 	 Serialized type name: %1 
+ 	 Original depth: %2 
+ 	 Overriden depth: %3 
+ 	 Current depth below top level: %4
+  event:
+    value: 28676
+    version: 1
+    opcode: 24
+    channel: 17
+    level: 5
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization mode has been overriden. 
+ 	 Serialized type name: %1 
+ 	 Overriden mode: %2
+  event:
+    value: 28677
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 3
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization of a script property has been skipped, because there is no runspace to use for evaluation of the property. 
+ 	 Property name: %1 
+ 	 Property owner's type name: %2 
+ 	 Getter script: %3
+  event:
+    value: 28678
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 3
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization of a property has been skipped, because property getter failed. 
+ 	 Property name: %1 
+ 	 Property owner's type name: %2 
+ 	 Exception from property getter: %3 
+ 	 Inner exception from property getter: %4
+  event:
+    value: 28679
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 3
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization of an enumerable object might not be complete, because object being enumerated threw an exception. 
+ 	 Type of object being enumerated: %1 
+ 	 Exception: %2
+  event:
+    value: 28680
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 3
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization called object's ToString method which failed. 
+ 	 Type of object: %1 
+ 	 Exception: %2
+  event:
+    value: 28682
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 2
+    task: 3
+    keywords: 0x4000000000000040
+    message: Maximum depth below top level has been reached, forcing object to be serialized as strings. 
+ 	 Object type at max depth: %1 
+ 	 Property name at max depth: %2 
+ 	 Depth: %3
+  event:
+    value: 28683
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 2
+    task: 3
+    keywords: 0x4000000000000040
+    message: XmlException has been thrown by the deserializer (most likely indicating incorrect clixml format). 
+ 	 Line number: %1 Line position: %2 
+ 	 Exception: %3
+  event:
+    value: 28684
+    version: 1
+    opcode: 19
+    channel: 17
+    level: 3
+    task: 3
+    keywords: 0x4000000000000040
+    message: Serialization of specified properties failed, because one of the specified properties was missing. 
+ 	 Type of object: %1 
+ 	 Property name: %2
+  event:
+    value: 32769
+    version: 1
+    opcode: 22
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Received object with Runspace Id: %1 Command Id: %2 Destination: %3 DataType: %4 TargetInterface: %5
+  event:
+    value: 32775
+    version: 1
+    opcode: 10
+    channel: 17
+    level: 2
+    task: 0
+    keywords: 0x4000000000000008
+    message: An unhandled exception occurred in the appdomain. 
+Exception Type: %1 
+Exception Message: %2 
+Exception StackTrace: %3
+  event:
+    value: 32776
+    version: 1
+    opcode: 10
+    channel: 17
+    level: 2
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. WSMan reported an error with error code: %3. 
+ Error message: %4 
+ StackTrace: %5
+  event:
+    value: 32777
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 2
+    task: 0
+    keywords: 0x8000000000000008
+    message: An unhandled exception occurred in the appdomain. 
+Exception Type: %1 
+Exception Message: %2 
+Exception StackTrace: %3
+  event:
+    value: 32784
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 2
+    task: 0
+    keywords: 0x8000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. WSMan reported an error with error code: %3. 
+ Error message: %4 
+ StackTrace: %5
+  event:
+    value: 32785
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id %1. Establishing a connection using WSMan Create Shell
+  event:
+    value: 32786
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id %1. Callback received for WSMan Create Shell
+  event:
+    value: 32787
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1. Closing shell using WSManCloseShell
+  event:
+    value: 32788
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1. Callback received for WSManCloseShell
+  event:
+    value: 32789
+    version: 1
+    opcode: 21
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. Sending data of size %3
+  event:
+    value: 32790
+    version: 1
+    opcode: 21
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. Callback received for WSManSendShellInputEx
+  event:
+    value: 32791
+    version: 1
+    opcode: 22
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. Placing Receive request using WSManReceiveShellOutputEx
+  event:
+    value: 32792
+    version: 1
+    opcode: 22
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. Received Data of size %3.
+  event:
+    value: 32793
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id %1 Pipeline Id %2. Establishing a command connection using WSManRunShellCommandEx
+  event:
+    value: 32800
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id %1 Pipeline Id %2. Callback received for command connection
+  event:
+    value: 32801
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id %2. Closing transport for command
+  event:
+    value: 32802
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id %2. Callback received for command close
+  event:
+    value: 32803
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id %2. Sending signal with code %3 using WSManSignalShellEx
+  event:
+    value: 32804
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id %2. Callback received for WSManSignalShellEx
+  event:
+    value: 32805
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1. Connection is getting redirected to Uri: %2
+  event:
+    value: 32849
+    version: 1
+    opcode: 21
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Runspace Id: %1 Pipeline Id: %2. Server is sending data of size %3 to client. DataType: %4 TargetInterface: %5
+  event:
+    value: 32850
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Request %1. Creating a server remote session. UserName: %2 Custome Shell Id: %3
+  event:
+    value: 32851
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Reporting context for request: %1 Context Reported: %1
+  event:
+    value: 32852
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Reporting operation complete for request: %1 
+ Error Code: %2 
+ Error Message: %3 
+ StackTrace: %4
+  event:
+    value: 32853
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shell Context %1. Request Id %2. Creating a commonad session for running a command.
+  event:
+    value: 32854
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shell Context %1 Command Context %2 Request Id %3. Stopping command.
+  event:
+    value: 32855
+    version: 1
+    opcode: 10
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shell Context %1 Command Context %2 Request Id %3. Received data from client.
+  event:
+    value: 32856
+    version: 1
+    opcode: 10
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shell Context %1 Command Context %2 Request Id %3. Client sent a receive request so that server can send data.
+  event:
+    value: 32857
+    version: 1
+    opcode: 13
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shell Context %1 Command Context %2 IsReceiveOperation %3. Got close operation request.
+  event:
+    value: 32865
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Loading assembly %1 for custom shell with shell Id %2
+  event:
+    value: 32866
+    version: 1
+    opcode: 12
+    channel: 17
+    level: 4
+    task: 0
+    keywords: 0x4000000000000008
+    message: Loading type %1 for custom shell with shell Id %2
+  event:
+    value: 32867
+    version: 1
+    opcode: 22
+    channel: 17
+    level: 5
+    task: 0
+    keywords: 0x4000000000000008
+    message: Received remoting fragment. 
+ 	 Object Id: %1 
+ 	 Fragment Id: %2 
+ 	 Start Flag: %3 
+ 	 End Flag: %4 
+ 	 Payload Length: %5 
+ 	 Payload Data: %6
+  event:
+    value: 32868
+    version: 1
+    opcode: 21
+    channel: 17
+    level: 5
+    task: 0
+    keywords: 0x4000000000000008
+    message: Sent remoting fragment. 
+ 	 Object Id: %1 
+ 	 Fragment Id: %2 
+ 	 Start Flag: %3 
+ 	 End Flag: %4 
+ 	 Payload Length: %5 
+ 	 Payload Data: %6
+  event:
+    value: 32869
+    version: 1
+    opcode: 25
+    channel: 17
+    level: 5
+    task: 0
+    keywords: 0x4000000000000008
+    message: Shutting down winrm service.
+  event:
+    value: 40961
+    version: 1
+    opcode: 1
+    channel: 16
+    level: 4
+    task: 4
+    keywords: 0x8001000000000000
+    message: PowerShell console is starting up
+  event:
+    value: 40962
+    version: 1
+    opcode: 2
+    channel: 16
+    level: 4
+    task: 4
+    keywords: 0x8001000000000000
+    message: PowerShell console is ready for user input
+  event:
+    value: 45057
+    version: 1
+    opcode: 19
+    channel: 18
+    level: 2
+    task: 0
+    keywords: 0x2000000000000000
+    message: Tracing ErrorRecord: 
+ Message: %1 
+ CategoryInfo.Category: %2 
+ CategoryInfo.Reason : %3 
+ CategoryInfo.TargetName : %4 
+ FullyQualifiedErrorId: %5 
+ Exception Details: 
+ Message : %6 
+ Stack Trace: %7 
+ InnerException %8 
+
+  event:
+    value: 45058
+    version: 1
+    opcode: 19
+    channel: 18
+    level: 2
+    task: 0
+    keywords: 0x2000000000000000
+    message: Exception: 
+ Message: %1 
+ StackTrace: %2 
+ InnerException : %3 
+
+  event:
+    value: 45059
+    version: 1
+    opcode: 20
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: Tracing PSObject
+  event:
+    value: 45060
+    version: 1
+    opcode: 20
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: Tracing Job: 
+ Id: %1 
+ InstanceId: %2 
+ Name: %3 
+ Location: %4 
+ State: %5 
+ Command: %6 
+
+  event:
+    value: 45061
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: Trace Information: 
+ %1
+  event:
+    value: 45062
+    version: 1
+    opcode: 20
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: Connection Paramters are 
+ Connection URI: %1 
+ Resource URI: %2 
+ User: %3 
+ OpenTimeout: %4 
+ IdleTimeout: %5 
+ CancelTimeout: %6 
+ AuthenticationMechanism: %7 
+ Thumb Print: %8 
+ MaxUriRedirectionCount: %9 
+ MaxReceivedDataSizePerCommand: %10 
+ MaxReceivedObjectSize: %11
+  event:
+    value: 45063
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 5
+    keywords: 0x4000000000000200
+    message: Workflow plugin loaded. 
+ 	 EndpointName: %1 
+ 	 User: %2 
+ 	 HostingMode: %3 
+ 	 Protocol: %4 
+ 	 Configuration: 
+ %5
+  event:
+    value: 45064
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow execution started. 
+ 	 WorkflowId: %1 
+ 	 ManagedNodes: %2
+  event:
+    value: 45065
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow state changed. 
+ 	 WorkflowId: %1 
+ 	 NewState: %2 
+ 	 OldState: %3
+  event:
+    value: 45072
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 5
+    keywords: 0x4000000000000200
+    message: Workflow plugin has been requested for a shutdown. 
+ 	 EndpointName: %1
+  event:
+    value: 45073
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 5
+    keywords: 0x4000000000000200
+    message: Workflow plugin restarted. 
+ 	 EndpointName: %1
+  event:
+    value: 45074
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow is resuming. 
+ 	 WorkflowId: %1
+  event:
+    value: 45075
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: A quota limit that was set for the endpoint was exceeded. 
+ 	 EndpointName: %1 
+ 	 ConfigName: %2 
+ 	 AllowedValue: %3 
+ 	 ValueInQuestion: %4
+  event:
+    value: 45076
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow has resumed. 
+ 	 WorkflowId: %1
+  event:
+    value: 45078
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow runspace pool was created. 
+ 	 WorkflowId: %1 
+ 	 ManagedNode: %2
+  event:
+    value: 45079
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Activity was queued for execution. 
+ 	 WorkflowId: %1 
+ 	 ActivityName: %2
+  event:
+    value: 45080
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Activity execution started. 
+ 	 ActivityName: %1 
+ 	 ActivityTypeName: %2
+  event:
+    value: 45081
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow is being imported from a XAML file. 
+ 	 WorkflowId: %1 
+ 	 XamlFile: %2
+  event:
+    value: 45082
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow has been imported from a XAML file. 
+ 	 WorkflowId: %1 
+ 	 XamlFile: %2
+  event:
+    value: 45083
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow could not be imported from a XAML file because of an error. 
+ 	 WorkflowId: %1 
+ 	 ErrorDescription: %2
+  event:
+    value: 45084
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 8
+    keywords: 0x4000000000000200
+    message: Workflow validation started. 
+ 	 WorkflowId: %1
+  event:
+    value: 45085
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 8
+    keywords: 0x4000000000000200
+    message: Workflow validation succeeded. 
+ 	 WorkflowId: %1
+  event:
+    value: 45086
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 8
+    keywords: 0x4000000000000200
+    message: Workflow validation failed with error. 
+ 	 WorkflowId: %1
+  event:
+    value: 45087
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow activity validated. 
+ 	 WorkflowId: %1 
+ 	 ActivityDisplayName: %2 
+ 	 ActivityTypeName: %3
+  event:
+    value: 45088
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 8
+    keywords: 0x4000000000000200
+    message: Workflow activity could not be validated. 
+ 	 WorkflowId: %1 
+ 	 ActivityDisplayName: %2 
+ 	 ActivityTypeName: %3
+  event:
+    value: 45089
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Activity execution failed. 
+ 	 WorkflowId: %1 
+ 	 ActivityName: %2 
+ 	 FailureDescription: %3
+  event:
+    value: 45090
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Runspace availability changed. 
+ 	 RunspaceId: %1 
+ 	 Availability: %2
+  event:
+    value: 45091
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Runspace state changed. 
+ 	 RunspaceId: %1 
+ 	 NewState: %2 
+ 	 OldState: %3
+  event:
+    value: 45092
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow loaded for execution. 
+ 	 WorkflowId: %1
+  event:
+    value: 45093
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow unloaded. 
+ 	 WorkflowId: %1
+  event:
+    value: 45094
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow execution cancelled. 
+ 	 WorkflowId: %1
+  event:
+    value: 45095
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow execution aborted. 
+ 	 WorkflowId: %1
+  event:
+    value: 45096
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow cleanup operation executed. 
+ 	 WorkflowId: %1
+  event:
+    value: 45097
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Persisted workflow loaded from disk. 
+ 	 WorkflowId: %1 
+ 	 Path: %2
+  event:
+    value: 45098
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow data was deleted from disk. 
+ 	 WorkflowId: %1 
+ 	 Path: %2
+  event:
+    value: 45100
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Starting remove job. 
+ 	 JobId: %1
+  event:
+    value: 45101
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Job state changed. 
+ 	 JobId: %1 
+ 	 WorkflowId: %2 
+ 	 NewState: %3 
+ 	 OldState: %4
+  event:
+    value: 45102
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Job error. 
+ 	 JobId: %1 
+ 	 WorkflowId: %2 
+ 	 ErrorDescription: %3
+  event:
+    value: 45104
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Job created for workflow (child job). 
+ 	 ParentJobId: %1 
+ 	 ChildJobId: %2 
+ 	 ChildWorkflowId: %3
+  event:
+    value: 45105
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Parent job created for workflow. 
+ 	 JobId: %1
+  event:
+    value: 45106
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: All required jobs were created for workflow execution. 
+ 	 JobId: %1 
+ 	 WorkflowId: %2
+  event:
+    value: 45107
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Child job removed for workflow. 
+ 	 ParentJobId: %1 
+ 	 ChildJobId: %2 
+ 	 WorkflowId: %3
+  event:
+    value: 45108
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: An error occurred while removing job. 
+ 	 ParentJobId: %1 
+ 	 ChildJobId: %2 
+ 	 WorkflowId: %3 
+ 	 Error: %4
+  event:
+    value: 45109
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Loading workflow for execution. 
+ 	 WorkflowId: %1
+  event:
+    value: 45110
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow execution finished. 
+ 	 WorkflowId: %1
+  event:
+    value: 45111
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Cancelling workflow execution. 
+ 	 WorkflowId: %1
+  event:
+    value: 45112
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Aborting workflow execution. 
+ 	 WorkflowId: %1 
+ 	 Reason: %2
+  event:
+    value: 45113
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Unloading workflow. 
+ 	 WorkflowId: %1
+  event:
+    value: 45114
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Forced workflow shutdown started. 
+ 	 WorkflowId: %1
+  event:
+    value: 45115
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Forced workflow shutdown finished. 
+ 	 WorkflowId: %1
+  event:
+    value: 45116
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: An error occurred while forcefully shutting down a workflow. 
+ 	 WorkflowId: %1 
+ 	 ErrorDescription: %2
+  event:
+    value: 45117
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Persisting workflow to disk. 
+ 	 WorkflowId: %1 
+ 	 PersistPath: %2
+  event:
+    value: 45118
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow persisted to disk. 
+ 	 WorkflowId: %1
+  event:
+    value: 45119
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Activity execution finished. 
+ 	 ActivityName: %1
+  event:
+    value: 45120
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Workflow execution error. 
+ 	 WorkflowId: %1 
+ 	 ErrorDescription: %2
+  event:
+    value: 45121
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 9
+    keywords: 0x4000000000000200
+    message: A new PowerShell endpoint was registered. 
+ 	 EndpointName: %1 
+ 	 EndpointType: %2 
+ 	 RegisteredBy: %3
+  event:
+    value: 45122
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 9
+    keywords: 0x4000000000000200
+    message: Endpoint configuration modified. 
+ 	 EndpointName: %1 
+ 	 ModifiedBy: %2
+  event:
+    value: 45123
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 9
+    keywords: 0x4000000000000200
+    message: Endpoint configuration unregistered. 
+ 	 EndpointName: %1 
+ 	 UnregisteredBy: %2
+  event:
+    value: 45124
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 9
+    keywords: 0x4000000000000200
+    message: Endpoint configuration disabled. 
+ 	 EndpointName: %1 
+ 	 DisabledBy: %2
+  event:
+    value: 45125
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 9
+    keywords: 0x4000000000000200
+    message: Endpoint configuration enabled. 
+ 	 EndpointName: %1 
+ 	 EnabledBy: %2
+  event:
+    value: 45126
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Out of process runspace started. 
+ 	 Command: %1
+  event:
+    value: 45127
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 6
+    keywords: 0x4000000000000200
+    message: Parameter splatting was performed during workflow execution. 
+ 	 Parameters: %1 
+ 	 Computers: %2
+  event:
+    value: 45128
+    version: 1
+    opcode: 20
+    channel: 17
+    level: 5
+    task: 5
+    keywords: 0x4000000000000200
+    message: Workflow engine started. 
+ 	 EndpointName: %1
+  event:
+    value: 45129
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000200
+    message: Workflow manager instantiated with 
+ 	 CheckpointPath: %1 
+ 	 ConfigProviderId: %2 
+ 	 UserName: %3 
+ 	 Path: %4
+  event:
+    value: 46337
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN ImportWorkflowCommand::StartWorkflowApplication. Starting invocation of workflow function. Tracking Guid %1
+  event:
+    value: 46338
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END ImportWorkflowCommand::StartWorkflowApplication. Ending invocation of workflow function. Tracking Guid %1
+  event:
+    value: 46339
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1
+  event:
+    value: 46340
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1
+  event:
+    value: 46341
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1 : ContainerParentJob Guid %2
+  event:
+    value: 46342
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN JobLogic ContainerParentJob Guid %1
+  event:
+    value: 46343
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END JobLogic ContainerParentJob Guid %1
+  event:
+    value: 46344
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN WorkflowExecution ContainerParentJob Guid %1
+  event:
+    value: 46345
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END WorkflowExecution ContainerParentJob Guid %1
+  event:
+    value: 46346
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: WorkflowJob with Guid %1 added to ContainerParentJob with Guid %2
+  event:
+    value: 46347
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: ProxyJob with Guid %1 associated with remote ContainerParentJob with Guid %2
+  event:
+    value: 46348
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN Execution of ContainerParentJob with Guid %1
+  event:
+    value: 46349
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END Execution of ContainerParentJob with Guid %1
+  event:
+    value: 46350
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN Execution of Proxy Job with Guid %1
+  event:
+    value: 46351
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END Execution of Proxy Job with Guid %1
+  event:
+    value: 46352
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN StateChanged event handler for Proxy Job with Guid %1
+  event:
+    value: 46353
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END StateChanged event handler for Proxy Job with Guid %1
+  event:
+    value: 46354
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN StateChanged event handler for Proxy Child Job with Guid %1
+  event:
+    value: 46355
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END StateChanged event handler for Proxy Child Job with Guid %1
+  event:
+    value: 46356
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: BEGIN Running garbage collection
+  event:
+    value: 46357
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: END Running garbage collection
+  event:
+    value: 46358
+    version: 1
+    opcode: 0
+    channel: 16
+    level: 3
+    task: 0
+    keywords: 0x8000000000000000
+    message: Persistence store has reached its maximum specified size
+  event:
+    value: 49152
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: %1
+  event:
+    value: 49153
+    version: 1
+    opcode: 0
+    channel: 18
+    level: 4
+    task: 0
+    keywords: 0x2000000000000000
+    message: Trace Information: 
+ %1 %2
+  event:
+    value: 53249
+    version: 1
+    opcode: 20
+    channel: 16
+    level: 4
+    task: 110
+    keywords: 0x8000000000000000
+    message: Scheduled Job %1 started at %2 
+
+  event:
+    value: 53250
+    version: 1
+    opcode: 20
+    channel: 16
+    level: 4
+    task: 110
+    keywords: 0x8000000000000000
+    message: Scheduled Job %1 completed at %2 with state %3 
+
+  event:
+    value: 53251
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 2
+    task: 110
+    keywords: 0x8000000000000000
+    message: Scheduled Job Exception %1: 
+ Message: %2 
+ StackTrace: %3 
+ InnerException: %4 
+
+  event:
+    value: 53504
+    version: 1
+    opcode: 10
+    channel: 16
+    level: 5
+    task: 111
+    keywords: 0x8000000000000008
+    message: Windows PowerShell has started an IPC listening thread on process: %1 in AppDomain: %2.
+  event:
+    value: 53505
+    version: 1
+    opcode: 11
+    channel: 16
+    level: 5
+    task: 111
+    keywords: 0x8000000000000008
+    message: Windows PowerShell has ended an IPC listening thread on process: %1 in AppDomain: %2.
+  event:
+    value: 53506
+    version: 1
+    opcode: 19
+    channel: 16
+    level: 5
+    task: 111
+    keywords: 0x8000000000000008
+    message: An error has occurred in Windows PowerShell IPC listening thread on process: %1 in AppDomain: %2.  Error Message: %3.
+  event:
+    value: 53507
+    version: 1
+    opcode: 12
+    channel: 16
+    level: 5
+    task: 111
+    keywords: 0x8000000000000008
+    message: Windows PowerShell IPC connect on process: %1 in AppDomain: %2 for User: %3.
+  event:
+    value: 53508
+    version: 1
+    opcode: 11
+    channel: 16
+    level: 5
+    task: 111
+    keywords: 0x8000000000000008
+    message: Windows PowerShell IPC disconnect on process: %1 in AppDomain: %2 for User: %3.
