@@ -1,0 +1,2908 @@
+
+
+Id          : 4097
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {Cmdlets}
+Template    : 
+Description : Computer Name $null or . resolve to LocalHost
+
+Id          : 4098
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {Cmdlets}
+Template    : 
+Description : Resolving to default scheme http
+
+Id          : 4099
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {Cmdlets}
+Template    : 
+Description : Remote shell name resolved to default Microsoft.PowerShell
+
+Id          : 4100
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 4101
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 4102
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 4103
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 4104
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="MessageNumber" inType="win:Int32" outType="xs:int"/>
+                <data name="MessageTotal" inType="win:Int32" outType="xs:int"/>
+                <data name="ScriptBlockText" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ScriptBlockId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Path" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Creating Scriptblock text (%1 of %2):
+              %3
+              
+              ScriptBlock ID: %4
+              Path: %5
+
+Id          : 4105
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ScriptBlockId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="RunspaceId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Started invocation of ScriptBlock ID: %1
+              Runspace ID: %2
+
+Id          : 4106
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ScriptBlockId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="RunspaceId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Completed invocation of ScriptBlock ID: %1
+              Runspace ID: %2
+
+Id          : 7937
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 7938
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 7939
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 7940
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContextInfo" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="UserData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Payload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %3
+              
+              Context:
+              %1
+              
+              User Data:
+              %2
+              
+
+Id          : 7941
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="currentActivityId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="parentActivityId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Correlating activity id's. 
+                    CurrentActivityId: %1 
+                    ParentActivityId: %2
+
+Id          : 7942
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Cmdlets}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ClassName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="MethodName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="WorkflowGuid" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="JobData" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ActivityName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ActivityGuid" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Parameters" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Class Name = %1
+              Method Name = %2
+              Workflow GUID = %3
+              Message = %4
+              %5
+              Activity Name = %6
+              Activity GUID = %7
+              Parameters = %8
+
+Id          : 8193
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Creating Runspace object 
+                    Instance Id: %1
+
+Id          : 8194
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="MaxRunspaces" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="MinRunspaces" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Creating RunspacePool object 
+                    InstanceId %1 
+                    MinRunspaces %2 
+                    MaxRunspaces %3
+
+Id          : 8195
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : 
+Description : Opening RunspacePool
+
+Id          : 8196
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : 
+Description : Modifying activity Id and correlating
+
+Id          : 8197
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace state changed to %1
+
+Id          : 8198
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Attempting session creation retry %1 for error code %2 on session Id %3
+
+Id          : 12033
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Port resolved to %1
+
+Id          : 12034
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : AppName resolved to %1
+
+Id          : 12035
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : ComputerName resolved to %1
+
+Id          : 12036
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Scheme is %1
+
+Id          : 12037
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : 
+Description : Test analytic message
+
+Id          : 12038
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="uri" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="shell" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="userName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="opentimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="idletimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="canceltimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="auth" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="thumbPrint" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="redircount" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="recvdDataSize" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="recvdObjSize" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Connection Paramters are 
+               Connection URI: %1 
+               Resource URI: %2 
+               User: %3 
+               OpenTimeout: %4 
+               IdleTimeout: %5 
+               CancelTimeout: %6 
+               AuthenticationMechanism: %7 
+               Thumb Print: %8 
+               MaxUriRedirectionCount: %9 
+               MaxReceivedDataSizePerCommand: %10 
+               MaxReceivedObjectSize: %11
+
+Id          : 12039
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Runspace}
+Template    : 
+Description : Modifying activity Id and correlating
+
+Id          : 24577
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE has started to run script file %1.
+
+Id          : 24578
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE has started to run a user-selected script from file %1.
+
+Id          : 24579
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is stopping the current command.
+
+Id          : 24580
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is resuming the debugger.
+
+Id          : 24581
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is stopping the debugger.
+
+Id          : 24582
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is stepping into debugging.
+
+Id          : 24583
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is stepping over debugging.
+
+Id          : 24584
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is stepping out of debugging.
+
+Id          : 24592
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is enabling all breakpoints.
+
+Id          : 24593
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is disabling all breakpoints.
+
+Id          : 24594
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Windows PowerShell ISE is removing all breakpoints.
+
+Id          : 24595
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="CurrentLine" inType="win:Int32" outType="xs:int"/>
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE is setting the breakpoint at line #: %1 of file %2.
+
+Id          : 24596
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="CurrentLine" inType="win:Int32" outType="xs:int"/>
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE is removing the breakpoint on line #: %1 of file %2.
+
+Id          : 24597
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="CurrentLine" inType="win:Int32" outType="xs:int"/>
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE is enabling the breakpoint on line #: %1 of file %2.
+
+Id          : 24598
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="CurrentLine" inType="win:Int32" outType="xs:int"/>
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE is disabling the breakpoint on line #: %1 of file %2.
+
+Id          : 24599
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="CurrentLine" inType="win:Int32" outType="xs:int"/>
+                <data name="FileName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell ISE has hit a breakpoint on line #: %1 of file %2.
+
+Id          : 28673
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="DeserializedType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="CastedToType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="RehydratedType" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Successfully rehydrated an object. 
+                    Deserialized type name: %1 
+                    Rehydrated by casting to type: %2 
+                    Rehydrated object is of type: %3
+
+Id          : 28674
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="DeserializedType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="CastedToType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="TypeCastException" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="TypeCastInnerException" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Failed to rehydrated an object. 
+                    Deserialized type name: %1 
+                    Rehydrated by casting to type: %2 
+                    Type cast exception: %3 
+                    Type cast inner exception: %4
+
+Id          : 28675
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SerializedType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="OriginalDepth" inType="win:Int32" outType="xs:int"/>
+                <data name="OverridenDepth" inType="win:Int32" outType="xs:int"/>
+                <data name="CurrentDepthBelowTopLevel" inType="win:Int32" outType="xs:int"/>
+              </template>
+              
+Description : Serialization depth has been overriden. 
+                    Serialized type name: %1 
+                    Original depth: %2 
+                    Overriden depth: %3 
+                    Current depth below top level: %4
+
+Id          : 28676
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SerializedType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="OverridenMode" inType="win:UInt32" outType="xs:unsignedInt"/>
+              </template>
+              
+Description : Serialization mode has been overriden. 
+                    Serialized type name: %1 
+                    Overriden mode: %2
+
+Id          : 28677
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="PropertyName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PropertyOwnerType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="GetterScript" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Serialization of a script property has been skipped, because there is no runspace to use for evaluation 
+              of the property. 
+                    Property name: %1 
+                    Property owner's type name: %2 
+                    Getter script: %3
+
+Id          : 28678
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="PropertyName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PropertyOwnerType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Exception" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="InnerException" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Serialization of a property has been skipped, because property getter failed. 
+                    Property name: %1 
+                    Property owner's type name: %2 
+                    Exception from property getter: %3 
+                    Inner exception from property getter: %4
+
+Id          : 28679
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TypeBeingEnumerated" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Exception" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Serialization of an enumerable object might not be complete, because object being enumerated threw an 
+              exception. 
+                    Type of object being enumerated: %1 
+                    Exception: %2
+
+Id          : 28680
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Type" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Exception" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Serialization called object's ToString method which failed. 
+                    Type of object: %1 
+                    Exception: %2
+
+Id          : 28682
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TypeOfObjectAtMaxDepth" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PropertyNameAtMaxDepth" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Depth" inType="win:Int32" outType="xs:int"/>
+              </template>
+              
+Description : Maximum depth below top level has been reached, forcing object to be serialized as strings. 
+                    Object type at max depth: %1 
+                    Property name at max depth: %2 
+                    Depth: %3
+
+Id          : 28683
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="LineNumber" inType="win:Int32" outType="xs:int"/>
+                <data name="LinePosition" inType="win:Int32" outType="xs:int"/>
+                <data name="Exception" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : XmlException has been thrown by the deserializer (most likely indicating incorrect clixml format). 
+                    Line number: %1 Line position: %2 
+                    Exception: %3
+
+Id          : 28684
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Serializer}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TypeOfObjectWithMissingProperty" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PropertyName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Serialization of specified properties failed, because one of the specified properties was missing. 
+                    Type of object: %1 
+                    Property name: %2
+
+Id          : 32769
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Runspace_InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PowerShell_InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Destination" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="DataType" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="TargetInterface" inType="win:UInt32" outType="xs:unsignedInt"/>
+              </template>
+              
+Description : Received object with Runspace Id: %1 Command Id: %2 Destination: %3 DataType: %4 TargetInterface: %5
+
+Id          : 32775
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : An unhandled exception occurred in the appdomain. 
+              Exception Type: %1 
+              Exception Message: %2 
+              Exception StackTrace: %3
+
+Id          : 32776
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ErrorCode" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ErrorMessage" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="StackTrace" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. WSMan reported an error with error code: %3. 
+               Error message: %4 
+               StackTrace: %5
+
+Id          : 32777
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : An unhandled exception occurred in the appdomain. 
+              Exception Type: %1 
+              Exception Message: %2 
+              Exception StackTrace: %3
+
+Id          : 32784
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ErrorCode" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ErrorMessage" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="StackTrace" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. WSMan reported an error with error code: %3. 
+               Error message: %4 
+               StackTrace: %5
+
+Id          : 32785
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id %1. Establishing a connection using WSMan Create Shell
+
+Id          : 32786
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id %1. Callback received for WSMan Create Shell
+
+Id          : 32787
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1. Closing shell using WSManCloseShell
+
+Id          : 32788
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1. Callback received for WSManCloseShell
+
+Id          : 32789
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="DataSize" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. Sending data of size %3
+
+Id          : 32790
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. Callback received for WSManSendShellInputEx
+
+Id          : 32791
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. Placing Receive request using WSManReceiveShellOutputEx
+
+Id          : 32792
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="DataSize" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. Received Data of size %3.
+
+Id          : 32793
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id %1 Pipeline Id %2. Establishing a command connection using WSManRunShellCommandEx
+
+Id          : 32800
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id %1 Pipeline Id %2. Callback received for command connection
+
+Id          : 32801
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id %2. Closing transport for command
+
+Id          : 32802
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id %2. Callback received for command close
+
+Id          : 32803
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="SignalCode" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id %2. Sending signal with code %3 using WSManSignalShellEx
+
+Id          : 32804
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PipelineId" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id %2. Callback received for WSManSignalShellEx
+
+Id          : 32805
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="SessionId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Uri" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace Id: %1. Connection is getting redirected to Uri: %2
+
+Id          : 32849
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Runspace_InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="PowerShell_InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="DataSize" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="DataType" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="TargetInterface" inType="win:UInt32" outType="xs:unsignedInt"/>
+              </template>
+              
+Description : Runspace Id: %1 Pipeline Id: %2. Server is sending data of size %3 to client. DataType: %4 
+              TargetInterface: %5
+
+Id          : 32850
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Request %1. Creating a server remote session. UserName: %2 Custome Shell Id: %3
+
+Id          : 32851
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Reporting context for request: %1 Context Reported: %1
+
+Id          : 32852
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param4" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Reporting operation complete for request: %1 
+               Error Code: %2 
+               Error Message: %3 
+               StackTrace: %4
+
+Id          : 32853
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Shell Context %1. Request Id %2. Creating a commonad session for running a command.
+
+Id          : 32854
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Shell Context %1 Command Context %2 Request Id %3. Stopping command.
+
+Id          : 32855
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Shell Context %1 Command Context %2 Request Id %3. Received data from client.
+
+Id          : 32856
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Shell Context %1 Command Context %2 Request Id %3. Client sent a receive request so that server can send 
+              data.
+
+Id          : 32857
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Shell Context %1 Command Context %2 IsReceiveOperation %3. Got close operation request.
+
+Id          : 32865
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Loading assembly %1 for custom shell with shell Id %2
+
+Id          : 32866
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Loading type %1 for custom shell with shell Id %2
+
+Id          : 32867
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ObjectId" inType="win:Int64" outType="xs:long"/>
+                <data name="FragmentId" inType="win:Int64" outType="xs:long"/>
+                <data name="sFlag" inType="win:Int32" outType="xs:int"/>
+                <data name="eFlag" inType="win:Int32" outType="xs:int"/>
+                <data name="FragmentLength" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="FragmentPayload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Received remoting fragment. 
+                    Object Id: %1 
+                    Fragment Id: %2 
+                    Start Flag: %3 
+                    End Flag: %4 
+                    Payload Length: %5 
+                    Payload Data: %6
+
+Id          : 32868
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ObjectId" inType="win:Int64" outType="xs:long"/>
+                <data name="FragmentId" inType="win:Int64" outType="xs:long"/>
+                <data name="sFlag" inType="win:Int32" outType="xs:int"/>
+                <data name="eFlag" inType="win:Int32" outType="xs:int"/>
+                <data name="FragmentLength" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="FragmentPayload" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Sent remoting fragment. 
+                    Object Id: %1 
+                    Fragment Id: %2 
+                    Start Flag: %3 
+                    End Flag: %4 
+                    Payload Length: %5 
+                    Payload Data: %6
+
+Id          : 32869
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+              </template>
+              
+Description : Shutting down winrm service.
+
+Id          : 40961
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, win:ResponseTime}
+Template    : 
+Description : PowerShell console is starting up
+
+Id          : 40962
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, win:ResponseTime}
+Template    : 
+Description : PowerShell console is ready for user input
+
+Id          : 45057
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Category" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Reason" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="TargetName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="FullyQualifiedErrorId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ExceptionMessage" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ExceptionStackTrace" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="ExceptionInnerException" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Tracing ErrorRecord: 
+               Message: %1 
+               CategoryInfo.Category: %2 
+               CategoryInfo.Reason : %3 
+               CategoryInfo.TargetName : %4 
+               FullyQualifiedErrorId: %5 
+               Exception Details: 
+               Message : %6 
+               Stack Trace: %7 
+               InnerException %8 
+              
+
+Id          : 45058
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Exception: 
+               Message: %1 
+               StackTrace: %2 
+               InnerException : %3 
+              
+
+Id          : 45059
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Tracing PSObject
+
+Id          : 45060
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Id" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="InstanceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Location" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="State" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Command" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Tracing Job: 
+               Id: %1 
+               InstanceId: %2 
+               Name: %3 
+               Location: %4 
+               State: %5 
+               Command: %6 
+              
+
+Id          : 45061
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Trace Information: 
+               %1
+
+Id          : 45062
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="uri" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="shell" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="userName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="opentimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="idletimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="canceltimeout" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="auth" inType="win:UInt32" outType="xs:unsignedInt"/>
+                <data name="thumbPrint" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="redircount" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="recvdDataSize" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="recvdObjSize" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Connection Paramters are 
+               Connection URI: %1 
+               Resource URI: %2 
+               User: %3 
+               OpenTimeout: %4 
+               IdleTimeout: %5 
+               CancelTimeout: %6 
+               AuthenticationMechanism: %7 
+               Thumb Print: %8 
+               MaxUriRedirectionCount: %9 
+               MaxReceivedDataSizePerCommand: %10 
+               MaxReceivedObjectSize: %11
+
+Id          : 45063
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="user" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="hostingMode" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="protocol" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="configuration" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow plugin loaded. 
+                    EndpointName: %1 
+                    User: %2 
+                    HostingMode: %3 
+                    Protocol: %4 
+                    Configuration: 
+               %5
+
+Id          : 45064
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="managedNodes" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow execution started. 
+                    WorkflowId: %1 
+                    ManagedNodes: %2
+
+Id          : 45065
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="newState" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="oldState" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow state changed. 
+                    WorkflowId: %1 
+                    NewState: %2 
+                    OldState: %3
+
+Id          : 45072
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow plugin has been requested for a shutdown. 
+                    EndpointName: %1
+
+Id          : 45073
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow plugin restarted. 
+                    EndpointName: %1
+
+Id          : 45074
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow is resuming. 
+                    WorkflowId: %1
+
+Id          : 45075
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="configName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="allowedValue" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="valueInQuestion" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : A quota limit that was set for the endpoint was exceeded. 
+                    EndpointName: %1 
+                    ConfigName: %2 
+                    AllowedValue: %3 
+                    ValueInQuestion: %4
+
+Id          : 45076
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow has resumed. 
+                    WorkflowId: %1
+
+Id          : 45078
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="managedNode" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow runspace pool was created. 
+                    WorkflowId: %1 
+                    ManagedNode: %2
+
+Id          : 45079
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="activityName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Activity was queued for execution. 
+                    WorkflowId: %1 
+                    ActivityName: %2
+
+Id          : 45080
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="activityName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="activityTypeName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Activity execution started. 
+                    ActivityName: %1 
+                    ActivityTypeName: %2
+
+Id          : 45081
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="xamlFile" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow is being imported from a XAML file. 
+                    WorkflowId: %1 
+                    XamlFile: %2
+
+Id          : 45082
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="xamlFile" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow has been imported from a XAML file. 
+                    WorkflowId: %1 
+                    XamlFile: %2
+
+Id          : 45083
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="errorDescription" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow could not be imported from a XAML file because of an error. 
+                    WorkflowId: %1 
+                    ErrorDescription: %2
+
+Id          : 45084
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow validation started. 
+                    WorkflowId: %1
+
+Id          : 45085
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow validation succeeded. 
+                    WorkflowId: %1
+
+Id          : 45086
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow validation failed with error. 
+                    WorkflowId: %1
+
+Id          : 45087
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="activityDisplayName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="activityType" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow activity validated. 
+                    WorkflowId: %1 
+                    ActivityDisplayName: %2 
+                    ActivityTypeName: %3
+
+Id          : 45088
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="activityDisplayName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="activityType" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow activity could not be validated. 
+                    WorkflowId: %1 
+                    ActivityDisplayName: %2 
+                    ActivityTypeName: %3
+
+Id          : 45089
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="activityName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="failureDescription" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Activity execution failed. 
+                    WorkflowId: %1 
+                    ActivityName: %2 
+                    FailureDescription: %3
+
+Id          : 45090
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="runspaceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="availability" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace availability changed. 
+                    RunspaceId: %1 
+                    Availability: %2
+
+Id          : 45091
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="runspaceId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="newState" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="oldState" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Runspace state changed. 
+                    RunspaceId: %1 
+                    NewState: %2 
+                    OldState: %3
+
+Id          : 45092
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow loaded for execution. 
+                    WorkflowId: %1
+
+Id          : 45093
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow unloaded. 
+                    WorkflowId: %1
+
+Id          : 45094
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow execution cancelled. 
+                    WorkflowId: %1
+
+Id          : 45095
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow execution aborted. 
+                    WorkflowId: %1
+
+Id          : 45096
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow cleanup operation executed. 
+                    WorkflowId: %1
+
+Id          : 45097
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="path" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Persisted workflow loaded from disk. 
+                    WorkflowId: %1 
+                    Path: %2
+
+Id          : 45098
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="path" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow data was deleted from disk. 
+                    WorkflowId: %1 
+                    Path: %2
+
+Id          : 45100
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="jobId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Starting remove job. 
+                    JobId: %1
+
+Id          : 45101
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="jobId" inType="win:Int32" outType="xs:int"/>
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="newState" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="oldState" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Job state changed. 
+                    JobId: %1 
+                    WorkflowId: %2 
+                    NewState: %3 
+                    OldState: %4
+
+Id          : 45102
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="jobId" inType="win:Int32" outType="xs:int"/>
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="errorDescription" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Job error. 
+                    JobId: %1 
+                    WorkflowId: %2 
+                    ErrorDescription: %3
+
+Id          : 45104
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="parentJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="childJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="childWorkflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Job created for workflow (child job). 
+                    ParentJobId: %1 
+                    ChildJobId: %2 
+                    ChildWorkflowId: %3
+
+Id          : 45105
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="jobId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Parent job created for workflow. 
+                    JobId: %1
+
+Id          : 45106
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="jobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : All required jobs were created for workflow execution. 
+                    JobId: %1 
+                    WorkflowId: %2
+
+Id          : 45107
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="parentJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="childJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Child job removed for workflow. 
+                    ParentJobId: %1 
+                    ChildJobId: %2 
+                    WorkflowId: %3
+
+Id          : 45108
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="parentJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="childJobId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="error" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : An error occurred while removing job. 
+                    ParentJobId: %1 
+                    ChildJobId: %2 
+                    WorkflowId: %3 
+                    Error: %4
+
+Id          : 45109
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Loading workflow for execution. 
+                    WorkflowId: %1
+
+Id          : 45110
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow execution finished. 
+                    WorkflowId: %1
+
+Id          : 45111
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Cancelling workflow execution. 
+                    WorkflowId: %1
+
+Id          : 45112
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="reason" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Aborting workflow execution. 
+                    WorkflowId: %1 
+                    Reason: %2
+
+Id          : 45113
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Unloading workflow. 
+                    WorkflowId: %1
+
+Id          : 45114
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Forced workflow shutdown started. 
+                    WorkflowId: %1
+
+Id          : 45115
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Forced workflow shutdown finished. 
+                    WorkflowId: %1
+
+Id          : 45116
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="errorDescription" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : An error occurred while forcefully shutting down a workflow. 
+                    WorkflowId: %1 
+                    ErrorDescription: %2
+
+Id          : 45117
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="persistPath" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Persisting workflow to disk. 
+                    WorkflowId: %1 
+                    PersistPath: %2
+
+Id          : 45118
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : Workflow persisted to disk. 
+                    WorkflowId: %1
+
+Id          : 45119
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="activityName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Activity execution finished. 
+                    ActivityName: %1
+
+Id          : 45120
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="workflowId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="errorDescription" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow execution error. 
+                    WorkflowId: %1 
+                    ErrorDescription: %2
+
+Id          : 45121
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="endpointType" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="registeredBy" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : A new PowerShell endpoint was registered. 
+                    EndpointName: %1 
+                    EndpointType: %2 
+                    RegisteredBy: %3
+
+Id          : 45122
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="modifiedBy" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Endpoint configuration modified. 
+                    EndpointName: %1 
+                    ModifiedBy: %2
+
+Id          : 45123
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="unregisteredBy" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Endpoint configuration unregistered. 
+                    EndpointName: %1 
+                    UnregisteredBy: %2
+
+Id          : 45124
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="disabledBy" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Endpoint configuration disabled. 
+                    EndpointName: %1 
+                    DisabledBy: %2
+
+Id          : 45125
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="enabledBy" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Endpoint configuration enabled. 
+                    EndpointName: %1 
+                    EnabledBy: %2
+
+Id          : 45126
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="command" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Out of process runspace started. 
+                    Command: %1
+
+Id          : 45127
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="parameters" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="computers" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Parameter splatting was performed during workflow execution. 
+                    Parameters: %1 
+                    Computers: %2
+
+Id          : 45128
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="endpointName" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow engine started. 
+                    EndpointName: %1
+
+Id          : 45129
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, PSWorkflow}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="checkpointPath" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="configProviderId" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="userName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="path" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Workflow manager instantiated with 
+                    CheckpointPath: %1 
+                    ConfigProviderId: %2 
+                    UserName: %3 
+                    Path: %4
+
+Id          : 46337
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TrackingId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN ImportWorkflowCommand::StartWorkflowApplication. Starting invocation of workflow function. 
+              Tracking Guid %1
+
+Id          : 46338
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TrackingId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END ImportWorkflowCommand::StartWorkflowApplication. Ending invocation of workflow function. Tracking 
+              Guid %1
+
+Id          : 46339
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TrackingId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1
+
+Id          : 46340
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TrackingId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1
+
+Id          : 46341
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="TrackingId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="ContainerParentJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END Creating new job in ImportWorkflowCommand::StartWorkflowApplication. Tracking Guid %1 : 
+              ContainerParentJob Guid %2
+
+Id          : 46342
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="WorkflowJobJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN JobLogic ContainerParentJob Guid %1
+
+Id          : 46343
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="WorkflowJobJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END JobLogic ContainerParentJob Guid %1
+
+Id          : 46344
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="WorkflowJobJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN WorkflowExecution ContainerParentJob Guid %1
+
+Id          : 46345
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="WorkflowJobJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END WorkflowExecution ContainerParentJob Guid %1
+
+Id          : 46346
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="WorkflowJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="ContainerParentJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : WorkflowJob with Guid %1 added to ContainerParentJob with Guid %2
+
+Id          : 46347
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+                <data name="ContainerParentJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : ProxyJob with Guid %1 associated with remote ContainerParentJob with Guid %2
+
+Id          : 46348
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContainerParentJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN Execution of ContainerParentJob with Guid %1
+
+Id          : 46349
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ContainerParentJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END Execution of ContainerParentJob with Guid %1
+
+Id          : 46350
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN Execution of Proxy Job with Guid %1
+
+Id          : 46351
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END Execution of Proxy Job with Guid %1
+
+Id          : 46352
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN StateChanged event handler for Proxy Job with Guid %1
+
+Id          : 46353
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END StateChanged event handler for Proxy Job with Guid %1
+
+Id          : 46354
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyChildJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : BEGIN StateChanged event handler for Proxy Child Job with Guid %1
+
+Id          : 46355
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ProxyChildJobInstanceId" inType="win:GUID" outType="xs:GUID"/>
+              </template>
+              
+Description : END StateChanged event handler for Proxy Child Job with Guid %1
+
+Id          : 46356
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : BEGIN Running garbage collection
+
+Id          : 46357
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : END Running garbage collection
+
+Id          : 46358
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : 
+Description : Persistence store has reached its maximum specified size
+
+Id          : 49152
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="message" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : %1
+
+Id          : 49153
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Trace Information: 
+               %1 %2
+
+Id          : 53249
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ScheduledJobDefName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="StartTime" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Scheduled Job %1 started at %2 
+              
+
+Id          : 53250
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="ScheduledJobDefName" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="StopTime" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="State" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Scheduled Job %1 completed at %2 with state %3 
+              
+
+Id          : 53251
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="Message" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="StackTrace" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="InnerException" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Scheduled Job Exception %1: 
+               Message: %2 
+               StackTrace: %3 
+               InnerException: %4 
+              
+
+Id          : 53504
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell has started an IPC listening thread on process: %1 in AppDomain: %2.
+
+Id          : 53505
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell has ended an IPC listening thread on process: %1 in AppDomain: %2.
+
+Id          : 53506
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : An error has occurred in Windows PowerShell IPC listening thread on process: %1 in AppDomain: %2.  Error 
+              Message: %3.
+
+Id          : 53507
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell IPC connect on process: %1 in AppDomain: %2 for User: %3.
+
+Id          : 53508
+Version     : 1
+LogLink     : System.Diagnostics.Eventing.Reader.EventLogLink
+Level       : System.Diagnostics.Eventing.Reader.EventLevel
+Opcode      : System.Diagnostics.Eventing.Reader.EventOpcode
+Task        : System.Diagnostics.Eventing.Reader.EventTask
+Keywords    : {, Transport}
+Template    : <template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+                <data name="param1" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param2" inType="win:UnicodeString" outType="xs:string"/>
+                <data name="param3" inType="win:UnicodeString" outType="xs:string"/>
+              </template>
+              
+Description : Windows PowerShell IPC disconnect on process: %1 in AppDomain: %2 for User: %3.
